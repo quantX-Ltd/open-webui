@@ -694,13 +694,29 @@ input[type='number'] {
 }
 
 body {
-	background: #fff;
+	background: #faf5f0;
 	color: #000;
 }
 
 .dark body {
-	background: #171717;
+	background: #1a1612;
 	color: #eee;
+}
+
+.fm-banner {
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(90deg, #c9443a 0%, #e07a28 100%);
+	color: #fff;
+	font-family: 'Archivo', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	flex-shrink: 0;
 }
 
 /* Position the handle relative to each LI */

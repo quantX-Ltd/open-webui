@@ -1051,17 +1051,22 @@
 {/if}
 
 {#if loaded}
-	{#if $isApp}
-		<div class="flex flex-row h-screen">
-			<AppSidebar />
+	<div class="flex flex-col h-screen overflow-hidden">
+		<div class="fm-banner">Freiheit Media - Internal LLM</div>
+		<div class="flex-1 min-h-0">
+			{#if $isApp}
+				<div class="flex flex-row h-full">
+					<AppSidebar />
 
-			<div class="w-full flex-1 max-w-[calc(100%-4.5rem)]">
+					<div class="w-full flex-1 max-w-[calc(100%-4.5rem)]">
+						<slot />
+					</div>
+				</div>
+			{:else}
 				<slot />
-			</div>
+			{/if}
 		</div>
-	{:else}
-		<slot />
-	{/if}
+	</div>
 {/if}
 
 {#if $config?.features.enable_community_sharing}
