@@ -4,8 +4,8 @@ Fork of [open-webui/open-webui](https://github.com/open-webui/open-webui) with t
 changes and a short write-up, submitted as the developer test task.
 
 - Fork: https://github.com/quantX-Ltd/open-webui
-- Video: _to be added after recording_
-- Time spent: roughly 2 hours
+- Video: https://www.loom.com/share/bbae6870860347d39ce04cb9d6b1b8cc
+- Time spent: approximately 2 to 2.5 hours
 
 ---
 
